@@ -1,6 +1,6 @@
 #!/bin/sh
 
-tar -zcvf saves.tar.gz /mnt/c/Users/mazimeng/AppData/Local/CrossCode
+cp /mnt/c/Users/mazimeng/AppData/Local/CrossCode/cc.save ./
 
 git add --all
 git commit -m 'backup'
